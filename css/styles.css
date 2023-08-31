@@ -1,0 +1,225 @@
+#title
+{
+  
+
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+h1
+{
+font-family: "Montserrat", sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+color: white;
+
+font-weight: 900;
+}
+
+.title-container
+{
+  padding: 3% 15% 9% ;
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: 400;
+
+}
+
+.nav-item
+{
+  margin: auto 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE-IMAGE */
+.dog
+{
+  width: 25%;
+  transform: rotate(25deg);
+
+  position: absolute;
+
+}
+
+/*  FEATURES section */
+
+#features
+{
+    padding: 5% 15% ;
+    background-color: #fff;
+
+    position: relative;
+      z-index: 1;
+}
+
+h3
+{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p
+{
+    color: #8f8f8f;
+
+}
+
+.features-icons
+{
+  color: #ef8172;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.features-box
+{
+  padding: 5%;
+  text-align: center;
+}
+
+.features-icons:hover
+{
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2
+{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5 ;
+  font-size: 2.5rem;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item
+{
+  padding: 5% 15%;
+}
+
+/* PRESS SECTION */
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%
+
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 15px 50px;
+}
+
+/* PRICING */
+
+#pricing
+{
+  padding:100px;
+  text-align: center;
+}
+
+/* CTA */
+
+#cta
+{
+  text-align: center;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+#footer{
+    text-align: center;
+    padding: 20px;
+}
+.action
+{
+  color: #ff4c68;
+  padding-bottom: 20px;
+ 
+}
+
+.act{
+  color: #ff4c68;
+}
+.last
+{
+  
+  margin-right: 15px;
+}
+.gradient-background
+{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation
+{
+  0%
+  {
+    background-position: 0% 50%;
+  }
+  50%
+  {
+    background-position: 100% 50%;
+  }
+  100%
+  {
+    background-position: 0% 50%;
+  }
+}
+
+.ac
+{
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.copy
+{
+  color: white;
+}
